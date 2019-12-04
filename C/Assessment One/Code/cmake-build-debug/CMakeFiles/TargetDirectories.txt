@@ -1,3 +1,0 @@
-/cygdrive/c/Users/walus/OneDrive - mycit.ie/C/Assessment One/Code/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/cygdrive/c/Users/walus/OneDrive - mycit.ie/C/Assessment One/Code/cmake-build-debug/CMakeFiles/A01.dir
-/cygdrive/c/Users/walus/OneDrive - mycit.ie/C/Assessment One/Code/cmake-build-debug/CMakeFiles/edit_cache.dir

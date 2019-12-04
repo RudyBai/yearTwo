@@ -1,4 +1,0 @@
-C:\Users\walus\.CLion2018.3\system\cygwin_cmake\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=C:/cygwin64/bin/gcc.exe -G "CodeBlocks - Unix Makefiles" "/cygdrive/c/Users/walus/OneDrive - mycit.ie/C/Assessment One/Code"
--- Configuring done
--- Generating done
--- Build files have been written to: /cygdrive/c/Users/walus/OneDrive - mycit.ie/C/Assessment One/Code/cmake-build-debug

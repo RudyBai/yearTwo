@@ -1,0 +1,6 @@
+guestNo,guestName,guestAddress
+G001,Mary,Cork Ireland
+G002,Tom,NY USA
+G003,John,Dublin Ireland
+G004,Stephenie,Paris France
+,,

@@ -1,1 +1,0 @@
-C:/cygwin64/bin/gcc.exe -g  -Wl,--enable-auto-import CMakeFiles/A01.dir/main.c.o CMakeFiles/A01.dir/word_game.c.o  -o A01.exe -Wl,--out-implib,libA01.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

@@ -1,0 +1,5 @@
+hotelNo,hotelName,city
+H001,Meteor Garden,Washington
+H002,Hilton,Texas
+H003,Grosvenor,Boston
+H004,Imperical,New York

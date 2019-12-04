@@ -1,4 +1,0 @@
-ToolSet: 2.11.2 (local)@C:\cygwin64
-Options: 
-
-Options:-DCMAKE_C_COMPILER=C:/cygwin64/bin/gcc.exe

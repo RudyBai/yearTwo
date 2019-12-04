@@ -1,0 +1,10 @@
+roomNo,hotelNo,type,price
+R001,H001,Single,30
+R104,H002,Double,90
+R210,H003,Family,200
+R907,H004,Family,200
+R101,H001,Double,25
+R110,H003,Double,35
+R302,H001,Family,40
+R101,H002,Single,57
+R302,H002,Family,150
