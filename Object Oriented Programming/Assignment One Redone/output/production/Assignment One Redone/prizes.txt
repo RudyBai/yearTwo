@@ -1,3 +1,0 @@
-Banana:2:€10 Voucher
-Apple:5:Laptop
-Mango:20:Trip To France
