@@ -25,7 +25,7 @@ class GeneralController {
     void refreshList(Stage stage) {
         stage.setTitle(String.format("Star count : %d", this.stars));
         List<String> prizeList = new ArrayList<>();
-        File file = new File("C:\\Users\\walus\\OneDrive - mycit.ie\\Object Oriented Programming\\Java-FX\\Assignment One Redone\\src\\prizes.txt");
+        File file = new File("./prizes.txt");
         try {
             prizeList = Files.readAllLines(Paths.get(file.getPath()));
         } catch (IOException e) {
@@ -50,19 +50,19 @@ class GeneralController {
         this.listView.setItems(observableList);
     }
 
-    int getStars() {
+    public int getStars() {
         return stars;
     }
 
-    void setStars(int stars) {
+    public void setStars(int stars) {
         this.stars = stars;
     }
 
-    ListView<String> getListView() {
+    public ListView<String> getListView() {
         return listView;
     }
 
-    HashMap<String, String[]> getPrizeHashMap() {
+    public HashMap<String, String[]> getPrizeHashMap() {
         return prizeHashMap;
     }
 }

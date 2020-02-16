@@ -3,8 +3,9 @@ import javafx.scene.Scene;
 import javafx.scene.control.TabPane;
 import javafx.stage.Stage;
 
-public class main extends Application {
+public class Main extends Application {
 
+    // TODO: Write meaningful comments instead of labeling the code
     public void start(Stage stage) {
 
         // General Controller
