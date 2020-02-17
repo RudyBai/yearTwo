@@ -3,7 +3,7 @@
  * @author Ignacio.Castineiras
  *
  */
-public class myMain {
+public class MyMain {
 
     /**
      * Main Method: Used to test the exam exercises.
@@ -11,7 +11,7 @@ public class myMain {
      */
     public static void main(String[] args) {
         //1. We create the object to test the exercises
-        exercises ex = new exercises();
+        Exercises exercises = new Exercises();
 
         //2. We create extra variables for the results
         int res1;
@@ -23,49 +23,49 @@ public class myMain {
 
         //ex1
         System.out.println("----------- ex1 -----------");
-        ex.ex1();
+        exercises.ex1();
 
         //ex2
         System.out.println("---------- ex2 -----------");
-        res1 = ex.ex2(2, 3);
+        res1 = exercises.ex2(2, 3);
         System.out.println(res1);
 
-        res1 = ex.ex2(5, 7);
+        res1 = exercises.ex2(5, 7);
         System.out.println(res1);
 
         //ex3
         System.out.println("----------- ex3 -----------");
-        ex.ex3(3, 7, 5);
-        ex.ex3(1, 2, 3);
+        exercises.ex3(3, 7, 5);
+        exercises.ex3(1, 2, 3);
 
         //ex4
         System.out.println("----------- ex4 -----------");
-        res1 = ex.ex4(5);
+        res1 = exercises.ex4(5);
         System.out.println(res1);
 
-        res1 = ex.ex4(10);
+        res1 = exercises.ex4(10);
         System.out.println(res1);
 
         //ex5
         System.out.println("----------- ex5 -----------");
-        ex.ex5(3);
+        exercises.ex5(3);
 
-        ex.ex5(5);
+        exercises.ex5(5);
 
         //ex6
         System.out.println("----------- ex6 -----------");
-        res2 = ex.ex6("Hello");
+        res2 = exercises.ex6("Hello");
         System.out.println(res2);
 
-        res2 = ex.ex6("Goodbye");
+        res2 = exercises.ex6("Goodbye");
         System.out.println(res2);
 
         //ex7
         System.out.println("----------- ex7 -----------");
-        res1 = ex.ex7(16);
+        res1 = exercises.ex7(16);
         System.out.println(res1);
 
-        res1 = ex.ex7(942);
+        res1 = exercises.ex7(942);
         System.out.println(res1);
     }
 

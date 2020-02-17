@@ -1,8 +1,5 @@
-/*
- * Imports section: Import the random library for ex3
- */
-
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
 
 /**
@@ -10,7 +7,7 @@ import java.util.Collections;
  * @author Ignacio.Castineiras
  *
  */
-class exercises {
+public class Exercises {
 
     //----------------------------------------------
     // Class constructor
@@ -18,7 +15,7 @@ class exercises {
     /**
      * Constructor of the class. Do not edit it.
      */
-    exercises(){}
+    Exercises(){}
 
     //----------------------------------------------
     // ex1
@@ -57,11 +54,8 @@ class exercises {
      * @param c: Third number
      */
     void ex3(int a, int b, int c) {
-    	ArrayList<Integer> arr = new ArrayList<>();
-    	arr.add(a);
-    	arr.add(b);
-    	arr.add(c);
-    	System.out.println(Collections.max(arr));
+        ArrayList<Integer> arrayList = new ArrayList<>(Arrays.asList(a, b, c));
+        System.out.println(Collections.max(arrayList));
     }
 
     //----------------------------------------------
@@ -74,11 +68,9 @@ class exercises {
      * @return Sum of all integers in [1..n]
      */
     public int ex4 (int n) {
-    	int a = n;
     	int res = 0;
-        while (a != 0) {
-    	    res = res + a;
-    	    a--;
+        for (int i = 0; i <= n; i++) {
+            res += n;
         }
         return res;
     }
@@ -107,6 +99,7 @@ class exercises {
         	for (int j = 0; j < i; j++) {
         		System.out.print("*");
         	}
+        	System.out.println();
         }
     }
 
@@ -123,8 +116,7 @@ class exercises {
      *
      */
     String ex6(String s){
-        StringBuilder q = new StringBuilder();
-        q.append(s);
+        StringBuilder q = new StringBuilder(s);
         q.reverse();
         return String.valueOf(q);
     }
@@ -156,8 +148,14 @@ class exercises {
      * @return res: Digital result of the number.
      */
     public int ex7(int n) {
-        //TO BE COMPLETED
-        return 6;
+        int res = n;
+        while (String.valueOf(res).length() > 1) {
+            int x = 0;
+            for (int i = 0; i < String.valueOf(res).length(); i++) {
+                x += Integer.parseInt(String.valueOf(String.valueOf(res).charAt(i)));
+            }
+            res = x;
+        }
+        return res;
     }
-
 }

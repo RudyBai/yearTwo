@@ -1,8 +1,12 @@
+package Hint1;
+
+import Hint1.MyStack;
+import Hint1.MyStaticStack;
 
 /**
 * The main class of our project.<br>. 
 */
-public class MyMain {
+public class MyMainHint1 {
 
 	//-------------------------------------
 	//	testMyStack 
@@ -17,7 +21,7 @@ public class MyMain {
 		//-------------------------------------
 		MyStack m;
 		//m = my_create_empty(); //--> We cannot create a new myStack using explicitly my_create_empty()
-		m = new MyStaticStack(3); //--> Instead we choose to follow the implementation class. 
+		m = new MyStaticStack(3); //--> Instead we choose to follow the implementation class.
 
 		//-------------------------------------
 		//	2. isEmpty 
