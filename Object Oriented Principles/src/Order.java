@@ -22,16 +22,6 @@ class Order {
         return quantity;
     }
 
-    // Setters
-
-    void setProduct(Product product) {
-        this.product = product;
-    }
-
-    void setQuantity(int quantity) {
-        this.quantity = quantity;
-    }
-
     // Print
 
     void print() {

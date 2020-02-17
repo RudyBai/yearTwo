@@ -21,15 +21,6 @@ class ProductDatabase {
         return productList;
     }
 
-    // Setters
-    void setNumItems(int numItems) {
-        this.numItems = numItems;
-    }
-
-    void setProductList(ArrayList<Product> productList) {
-        this.productList = productList;
-    }
-
     // Add Product
     void addProduct(Product parameterProduct) {
         this.productList.add(parameterProduct);

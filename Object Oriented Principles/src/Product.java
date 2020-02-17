@@ -9,9 +9,6 @@ public abstract class Product {
     private int productID;
     private double price;
 
-    // Constructor
-    public Product() {}
-
     public Product(String parameterName, String parameterDescription, double parameterPrice) {
         this.name = parameterName;
         this.description = parameterDescription;
@@ -21,10 +18,6 @@ public abstract class Product {
     }
 
     // Getters
-
-    public static int getGlobalIDCounter() {
-        return globalIDCounter;
-    }
 
     public String getName() {
         return name;
@@ -40,24 +33,6 @@ public abstract class Product {
 
     public double getPrice() {
         return price;
-    }
-
-    // Setters (Without globalIDCounter setter)
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public void setDescription(String description) {
-        this.description = description;
-    }
-
-    public void setProductID(int productID) {
-        this.productID = productID;
-    }
-
-    public void setPrice(double price) {
-        this.price = price;
     }
 
     // Print

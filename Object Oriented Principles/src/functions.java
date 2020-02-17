@@ -103,12 +103,7 @@ class functions {
         String customerName = keyboard.nextLine();
         System.out.println();
 
-        // Address
-        System.out.print("Please enter the address of the customer : ");
-        String customerAddress = keyboard.nextLine();
-        System.out.println();
-
-        customers.add(new Customer(customerName, customerAddress));
+        customers.add(new Customer(customerName));
     }
 
     //==============

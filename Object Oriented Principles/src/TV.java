@@ -18,42 +18,6 @@ public class TV extends Product {
         this.capable3D = parameterCapable3d;
     }
 
-    // Getters
-
-    public String getMake() {
-        return make;
-    }
-
-    public int getScreenSize() {
-        return screenSize;
-    }
-
-    public String getScreenType() {
-        return screenType;
-    }
-
-    public boolean isCapable3D() {
-        return capable3D;
-    }
-
-    // Setters
-
-    public void setMake(String make) {
-        this.make = make;
-    }
-
-    public void setScreenSize(int screenSize) {
-        this.screenSize = screenSize;
-    }
-
-    public void setScreenType(String screenType) {
-        this.screenType = screenType;
-    }
-
-    public void setCapable3D(boolean capable3D) {
-        this.capable3D = capable3D;
-    }
-
     public void print() {
         System.out.println("Name : " + this.getName());
         System.out.println("Description : " + this.getDescription());

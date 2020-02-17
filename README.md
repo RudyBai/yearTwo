@@ -17,7 +17,7 @@ Never going to be on this repo:
 Coming Soon™ to a **yearTwo** repo near you!:
 * C/Assignemnt Two
 
-NoSQL Didn't work out too well so I'd be very careful taking any inspiration from there.
+NoSQL Didn't work out too well so I'd be very careful taking any inspiration from there. :cowboy_hat_face:
 
 ![A graphical instruction on using this repo](https://i.kym-cdn.com/photos/images/newsfeed/001/208/115/7e1.png)
 
