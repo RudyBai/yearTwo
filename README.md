@@ -19,7 +19,7 @@ Coming Soon™ to a **yearTwo** repo near you!:
 
 NoSQL Didn't work out too well so I'd be very careful taking any inspiration from there. :cowboy_hat_face:
 
-```python
+```
 Beautiful is better than ugly.
 Explicit is better than implicit.
 Simple is better than complex.
